@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -32,7 +32,7 @@
             <i class="fas fa-arrow-left fa-2x"></i>
           </a>
         </div>
-        <h1 class="header__title">Best Friend</h1>
+        <h1 class="header__title">김대리님</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -43,26 +43,40 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
-        <span class="chat__timestamp">Viernes, 4 de marzo, 2020</span>
+        <span class="chat__timestamp">Friday, March 4, 2020</span>
         <li class="incoming-message message">
-          <img src="image/tree.jpg" class="g-avatar message__avatar" />
+          <img src="image/tree.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">Best Friend</span>
-            <div class="message__bubble">Te quiero!</div>
+            <span class="message__bubble">퇴근전까지 작업 마무리해주세요.</span>
+            <span class="message__author">김대리님</span>
           </div>
+        </li>
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">네 알겠습니다.</div>
+          </div>
         </li>
         <li class="incoming-message message">
+          <img src="image/tree.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__bubble"
+              >8282sendme@gmail.com으로 보내주세요.</span
+            >
+            <span class="message__author">김대리님</span>
+          </div>
+        </li>
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">yo tambien.</div>
+            <div class="message__bubble">전송 완료했습니다.</div>
           </div>
         </li>
       </ul>
     </main>
-    <div class="chat__right">
+    <div class="chat__write">
       <div class="chat__write-column">
         <i class="far fa-plus-square"></i>
       </div>
