@@ -176,7 +176,7 @@
 }
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
-  background-image: linear-gradient(to left, #ff5f6d, #ffc371);
+  background-image: linear-gradient(to left, #ff5f6d, #82b8ff);
   color: white;
 }
 
